@@ -16,26 +16,26 @@ The program also limitedly obeys symbols
 
 gcc tcshShell.c -o tcshShell && ./tcshShell
 
-TESTS:
-  echo helloWorld
-  ls
-  mkdir dir
-  date
-  rm -r dir
-  exit
-  set x = 0
-  set y = ppp
-  $x
-  set
-  alias
-  alias x ppp
-  x
-  alias
-  alias lm ls
-  lm
-  set x= 'o'
-  ls -al > listings
-  cat listings
-  touch test.txt
-  wc -l < test.txt
-  ls -l | wc -l
+TESTS:  
+  echo helloWorld   
+  ls  
+  mkdir dir  
+  date  
+  rm -r dir  
+  exit  
+  set x = 0  
+  set y = ppp  
+  $x  
+  set  
+  alias  
+  alias x ppp  
+  x  
+  alias  
+  alias lm ls  
+  lm  
+  set x= 'o'  
+  ls -al > listings  
+  cat listings  
+  touch test.txt  
+  wc -l < test.txt  
+  ls -l | wc -l  
