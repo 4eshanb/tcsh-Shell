@@ -18,7 +18,7 @@ The program also limitedly obeys symbols
 gcc tcshShell.c -o tcshShell && ./tcshShell
 
 TESTS:  
-  echo helloWorld   
+ > echo helloWorld   
   ls  
   mkdir dir  
   date  
