@@ -5,6 +5,7 @@ Repeatedly prints a prompt and reads the whole line from user.
 Then the line is split into its components.  
 If the first component is tcsh's "set", "echo", "alias", or "exit", the program obeys the command.
 Otherwise fork and exec are used to make it happen; wait is used for subprocess not terminated.
+Used Hashtable to store variables and aliases.
 If exit code is not zero, a warning exit code is printed.  
 The program also limitedly obeys symbols  
    < is used to redirect a program's standard input so that it comes
