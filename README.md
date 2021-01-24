@@ -8,11 +8,11 @@ Otherwise fork and exec are used to make it happen; wait is used for subprocess 
 Used Hashtable to store variables and aliases.
 If exit code is not zero, a warning exit code is printed.     
 The program also limitedly obeys symbols  
-   > < is used to redirect a program's standard input so that it comes
+   > '<' is used to redirect a program's standard input so that it comes
      from a file, e.g. a.out < inputs.txt
-   > > is used to redirect a program's standard output so that it goes
+   '>' is used to redirect a program's standard output so that it goes
      into a file, e.g. a.out > results
-   > | is used to pipe the standard output of one program into the standard
+   '|' is used to pipe the standard output of one program into the standard
      input of another, e.g. a.out | wc
 
 gcc tcshShell.c -o tcshShell && ./tcshShell
